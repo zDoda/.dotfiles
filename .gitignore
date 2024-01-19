@@ -9,6 +9,9 @@ venv.bak/
 # macOS-specific files
 .DS_Store
 
+#undodir
+.config/nvim/undodir
+
 # VS Code
 .vscode/
 
