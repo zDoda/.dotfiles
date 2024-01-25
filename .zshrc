@@ -46,6 +46,7 @@ alias nvim="/usr/local/bin/nvim"
 alias vim="/usr/local/bin/nvim"
 alias python='python3'
 alias zshrc="vim ~/.zshrc"
+alias srczsh="source ~/.zshrc"
 alias nvimc="vim ~/.config/nvim/"
 alias folder='open'
 
@@ -58,3 +59,5 @@ alias gb='git branch'
 alias gs='git status'
 alias gr='cd `git rev-parse --show-toplevel`'
 alias ll='ls -lha'
+
+alias blogo='/Users/czook/Github/blogo/blogo.py'
