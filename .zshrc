@@ -8,6 +8,7 @@ export PATH=$PATH:/usr/sbin:$HOME/bin:/usr/local/bin:$HOME/.local/bin:$HOME/.car
 ZSH_DISABLE_COMPFIX=true
 export ZSH_SESSION_TMPDIR="$HOME/Github"
 export ZSH="$HOME/.oh-my-zsh"
+export TERM="xterm-256color"
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 source $ZSH/oh-my-zsh.sh
@@ -58,6 +59,7 @@ alias gc='git commit -m '
 alias gb='git branch'
 alias gs='git status'
 alias gr='cd `git rev-parse --show-toplevel`'
-alias ll='ls -lha'
+alias ll='/bin/ls -lha --color=always | fgrep -v --color=auto .DS_Store'
+alias ls='ls --color=always | fgrep -v .DS_Store'
 
 alias blogo='/Users/czook/Github/blogo/blogo.py'
