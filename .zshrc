@@ -63,3 +63,4 @@ alias ll='/bin/ls -lha --color=always | fgrep -v --color=auto .DS_Store'
 alias ls='ls --color=always | fgrep -v .DS_Store'
 
 alias blogo='/Users/czook/Github/blogo/blogo.py'
+alias godot='/Applications/Godot.app/Contents/MacOS/Godot'
