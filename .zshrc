@@ -1,6 +1,6 @@
-# if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-#  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-# fi
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+ source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
 # If you come from bash you might have to change your $PATH.
 export PATH=$PATH:/usr/sbin:$HOME/bin:/usr/local/bin:$HOME/.local/bin:$HOME/.cargo/env:./:/Users/czook/Library/Python/3.9/bin:
 
