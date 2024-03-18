@@ -1,7 +1,6 @@
 -- Set <space> as the leader key
 -- See `:help mapleader`
 --  NOTE: Must happen before plugins are required (otherwise wrong leader will be used
-require('czook.init')
 
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
@@ -167,17 +166,6 @@ require('lazy').setup({
     build = ':TSUpdate',
   },
 
-  -- OpenAI API calls from nvimh
-  {
-    "jackMort/ChatGPT.nvim",
-    event = "VeryLazy",
-    dependencies = {
-      "MunifTanjim/nui.nvim",
-      "nvim-lua/plenary.nvim",
-      "nvim-telescope/telescope.nvim"
-    }
-  },
-
   -- Quick file switching
   {
     'ThePrimeagen/harpoon',
@@ -201,5 +189,10 @@ require('lazy').setup({
     dependencies = {
       "MunifTanjim/nui.nvim",
     }
-  }
+  },
+
+  -- ollama
+  { "David-Kunz/gen.nvim" },
 }, {})
+
+require('czook.init')
