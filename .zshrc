@@ -46,6 +46,7 @@ export NVM_DIR="$HOME/.nvm"
 alias nvim="/usr/local/bin/nvim"
 alias vim="/usr/local/bin/nvim"
 alias python='python3'
+alias pip='pip3'
 alias zshrc="vim ~/.zshrc"
 alias srczsh="source ~/.zshrc"
 alias nvimc="vim ~/.config/nvim/"
