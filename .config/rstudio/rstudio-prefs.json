@@ -7,5 +7,6 @@
     "editor_keybindings": "vim",
     "posix_terminal_shell": "bash",
     "jobs_tab_visibility": "shown",
-    "editor_theme": "rscodeio"
+    "editor_theme": "rscodeio",
+    "source_with_echo": true
 }
