@@ -1,6 +1,3 @@
----NOTE: user will be merged with defaults and
----we add a default var_accessor for this table to config values.
-
 require("avante").setup({
   debug = false,
   ---@alias Provider  "openai" -- | "azure" | "gemini" | "cohere" | "copilot" | "claude" | [string]
@@ -61,15 +58,6 @@ You are an excellent programming expert.
   gemini = {
     endpoint = "https://generativelanguage.googleapis.com/v1beta/models",
     model = "gemini-1.5-flash-latest",
-    timeout = 30000, -- Timeout in milliseconds
-    temperature = 0,
-    max_tokens = 4096,
-    ["local"] = false,
-  },
-  ---@type AvanteSupportedProvider
-  cohere = {
-    endpoint = "https://api.cohere.com/v1",
-    model = "command-r-plus-08-2024",
     timeout = 30000, -- Timeout in milliseconds
     temperature = 0,
     max_tokens = 4096,
